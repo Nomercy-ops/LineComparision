@@ -73,6 +73,22 @@ public class LineComparision {
         System.out.println("The length of line 2 is : " + lengthOfLine2);
     }
 	
+	
+	 /**
+     * UC-2 to check of lines are equal or not using .equals method
+     *
+     * @param lengthOfLine1
+     * @param lengthOfLine2
+     */
+    private static void checkEqualityOfLine() {
+
+        if (lengthOfLine1.equals(lengthOfLine2)) {
+            System.out.println("Both Lengths are equals");
+        } else {
+            System.out.println(" Lengths are not equals");
+        }
+    }
+	
 }
 
 	
