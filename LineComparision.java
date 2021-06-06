@@ -89,6 +89,28 @@ public class LineComparision {
         }
     }
 	
+	
+	 /**
+     * UC-3 to check the  lines are equal,greater than and less than using .compareTo
+     * Here integer compare to method return 0 for equal -1 for less than and 1 for greater than method
+     */
+    public static void compareTwoLines() {
+
+        switch (lengthOfLine1.compareTo(lengthOfLine2)) {
+            case 0:
+                System.out.println("Two lines are equal in length");
+                break;
+            case -1:
+                System.out.println("Length Of Line1 is less than Length Of Line 2");
+                break;
+            default:
+                System.out.println("Length Of Line1 is Greater than Length Of Line 2");
+                break;
+        }
+    }
+}
+
+	
 }
 
 	
